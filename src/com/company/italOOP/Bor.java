@@ -27,9 +27,6 @@ public class Bor {
 
     @Override
     public String toString() {
-        return "Bor{" +
-                "fajta='" + fajta + '\'' +
-                ", evjarat=" + evjarat +
-                '}';
+        return String.format("Bor: %s, évjárata: %d", this.fajta, this.evjarat);
     }
 }
