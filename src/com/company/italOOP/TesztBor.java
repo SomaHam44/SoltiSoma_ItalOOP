@@ -2,9 +2,19 @@ package com.company.italOOP;
 
 public class TesztBor {
 
+    /**
+     * A kiirBor metódus egy Bor példányt ír ki a konzolra
+     * @param bor - a megadott bor példányt kiíratása történik meg
+     */
     public static void kiirBor(Bor bor) {
         System.out.println(bor);
     }
+
+    /**
+     * Ebben a függvényben létrehozunk néhány Bor és Aszu példányokat, melyek
+     * segítségével leteszteljük a kiiró függvényt és műkődését
+     * @param args - minden példányra meghívjuk a kiirBor függvényt
+     */
 
     public static void main(String[] args) {
         Bor bor1 = new Bor("Édes bor", 2016);
